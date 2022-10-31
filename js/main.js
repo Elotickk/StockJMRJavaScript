@@ -19,9 +19,11 @@ function mostrarProductos(prd) {
         let contenedor = document.createElement("article");
         contenedor.classList.add('contProducto');
         contenedor.innerHTML = `
+                            
                             <img src=${prod.image} alt=${prod.title} class="imgProd">
                             <div class="contInfoProd">
                             <p class="titleProd">${prod.title}</p>
+                            <p class="titleProd">${prod.codeproduct}</p>
                             <p class="priceProd">$${prod.price}</p>
                             </div>
                             `;
@@ -193,8 +195,11 @@ barraBuscar.addEventListener('input', async () => {
     barraBuscar.value === '' ?
         mostrarProductos(productos) :
         (
-            prodFiltrados = productos.filter(elemento => elemento.title.includes(barraBuscar.value.toUpperCase())),
+            prodFiltrados = productos.filter(elemento =>  elemento.title.includes(barraBuscar.value.toUpperCase()
+            ) | elemento.codeproduct.includes(barraBuscar.value.toUpperCase()
+            ) ),
             mostrarProductos(prodFiltrados)
+            
         )
 })
 

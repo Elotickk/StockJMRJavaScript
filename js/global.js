@@ -12,12 +12,13 @@ const wrapper = document.querySelector('#wrapper');
 /////////////////////////// CLASES ///////////////////////////
 
 class Producto {
-    constructor(id, title, category, price, image) {
+    constructor(id, title, category, price, image , codeproduct) {
         this.id = id;
         this.title = title.toUpperCase();
         this.category = category;
         this.price = parseFloat(price);
         this.image = image;
+        this.codeproduct = codeproduct;
     }
 }
 
@@ -34,7 +35,7 @@ async function traerProductos() {
     const Lista = await obtenerDatos('./js/mockData.json');
     let productos = []
     Lista.forEach(prod => {
-        productos.push(new Producto(prod.idprod, prod.title, prod.category, prod.price, prod.imagen))
+        productos.push(new Producto(prod.idprod, prod.title, prod.category, prod.price, prod.image , prod.codeproduct))
     });
     return productos;
 }
