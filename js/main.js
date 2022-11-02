@@ -24,6 +24,8 @@ function mostrarProductos(prd) {
                             <div class="contInfoProd">
                             <p class="titleProd">${prod.title}</p>
                             <p class="titleProd">${prod.codeproduct}</p>
+                            <p class="titleProd">${prod.brand}</p>
+                            <p class="titleProd">${prod.category}</p>
                             <p class="priceProd">$${prod.price}</p>
                             </div>
                             `;

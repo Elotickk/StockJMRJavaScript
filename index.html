@@ -22,7 +22,7 @@
             <div id="contMarca">
                 <a href="./index.html" id="linkLogo">
                     <img src="./img/logo-jmr.png" alt="Logo" id="logo">
-                    <h1>JMR Stock</h1>
+                    <h1 class="name-logo">JMR Stock</h1>
                 </a>
             </div>
             <div id="contenedorCarrito">
@@ -52,39 +52,131 @@
     </header>
     <div id="wrapper">
         <aside id="aside">
-            <input id="barraBusqueda" placeholder="Buscar por nombre">
+            <input id="barraBusqueda" placeholder="Buscar por nombre o por codigo">
             <section id="contFiltros">
                 <article>
                     <form id="Checkbox">
                         <fieldset class="filtros">
                             <legend>Categorías:</legend>
+                            <label for="Agenda">
+                                <input type="checkbox" id="Agenda" name="producto" value="Agenda">
+                                Agenda
+                            </label>
+                            <label for="Almohada">
+                                <input type="checkbox" id="Almohada" name="producto" value="Almohada">
+                                Almohada
+                            </label>
+                            <label for="Bandolera">
+                                <input type="checkbox" id="Bandolera" name="producto" value="Bandolera">
+                                Bandolera
+                            </label>
+                            <label for="Billetera">
+                                <input type="checkbox" id="Billetera" name="producto" value="Billetera">
+                                Billetera
+                            </label>
+                            <label for="Bolso">
+                                <input type="checkbox" id="Bolso" name="producto" value="Bolso">
+                                Bolso
+                            </label>
+                            <label for="Bufanda">
+                                <input type="checkbox" id="Bufanda" name="producto" value="Bufanda">
+                                Bufandas
+                            </label>
+                            <label for="Carpeta">
+                                <input type="checkbox" id="Carpeta" name="producto" value="Carpeta">
+                                Carpeta
+                            </label>
+                            <label for="Cartera">
+                                <input type="checkbox" id="Cartera" name="producto" value="Cartera">
+                                Cartera
+                            </label>
+                            <label for="Cartuchera">
+                                <input type="checkbox" id="Cartuchera" name="producto" value="Cartuchera">
+                                Cartuchera
+                            </label>
+                            <label for="Cepillo">
+                                <input type="checkbox" id="Cepillo" name="producto" value="Cepillo">
+                                Cepillo
+                            </label>
+                            <label for="Cuello">
+                                <input type="checkbox" id="Cuello" name="producto" value="Cuello">
+                                Cuello
+                            </label>
+                            <label for="Fichero">
+                                <input type="checkbox" id="Fichero" name="producto" value="Fichero">
+                                Fichero
+                            </label>
+                            <label for="Funda">
+                                <input type="checkbox" id="Funda" name="producto" value="Funda">
+                                Fundas
+                            </label>
+                            <label for="Gorro">
+                                <input type="checkbox" id="Gorro" name="producto" value="Gorro">
+                                Gorro
+                            </label>
+                            <label for="Guante">
+                                <input type="checkbox" id="Guante" name="producto" value="Guante">
+                                Guantes
+                            </label>
+                            <label for="Lunchera">
+                                <input type="checkbox" id="Lunchera" name="producto" value="Lunchera">
+                                Lunchera
+                            </label>
+                            <label for="Matero">
+                                <input type="checkbox" id="Matero" name="producto" value="Matero">
+                                Matero
+                            </label>
+                            <label for="Manicura">
+                                <input type="checkbox" id="Manicura" name="producto" value="Manicura">
+                                Manicura
+                            </label>
+                            <label for="Mochila">
+                                <input type="checkbox" id="Mochila" name="producto" value="Mochila">
+                                Mochilas
+                            </label>
+                            <label for="Morral">
+                                <input type="checkbox" id="Morral" name="producto" value="Morral">
+                                Morrales
+                            </label>
+                            <label for="Paraguas">
+                                <input type="checkbox" id="Paraguas" name="producto" value="Paraguas">
+                                Paraguas
+                            </label>
+                            <label for="Portacomestico">
+                                <input type="checkbox" id="Portacomestico" name="producto" value="Portacomestico">
+                                Portacomestico
+                            </label>
+                            <label for="Portafolio">
+                                <input type="checkbox" id="Portafolio" name="producto" value="Portafolio">
+                                Portafolio
+                            </label>
+                            <label for="rinonera">
+                                <input type="checkbox" id="rinonera" name="producto" value="rinonera">
+                                Riñonera
+                            </label>
+                            <label for="Sobre">
+                                <input type="checkbox" id="Sobre" name="producto" value="Sobre">
+                                Sobre
+                            </label>
+                            <label for="Tabla">
+                                <input type="checkbox" id="Tabla" name="producto" value="Tabla">
+                                Tabla
+                            </label>
+                            <label for="Tarjetero">
+                                <input type="checkbox" id="Tarjetero" name="producto" value="Tarjetero">
+                                Tarjetero
+                            </label>
+                            <label for="Tijera">
+                                <input type="checkbox" id="Tijera" name="producto" value="Tijera">
+                                Tijera
+                            </label>
+                            <label for="Trabas">
+                                <input type="checkbox" id="Trabas" name="producto" value="Trabas">
+                                Trabas
+                            </label>
                             <label for="Valija">
                                 <input type="checkbox" id="Valija" name="producto" value="Valija">
-                                Valija
-                            </label>
-                            <label for="CPU_Intel">
-                                <input type="checkbox" id="CPU_Intel" name="producto" value="CPU_Intel">
-                                CPU Intel
-                            </label>
-                            <label for="Mother_Intel">
-                                <input type="checkbox" id="Mother_Intel" name="producto" value="Mother_Intel">
-                                Mother Intel
-                            </label>
-                            <label for="Mother_AMD">
-                                <input type="checkbox" id="Mother_AMD" name="producto" value="Mother_AMD">
-                                Mother AMD
-                            </label>
-                            <label for="GPU_Nvidia">
-                                <input type="checkbox" id="GPU_Nvidia" name="producto" value="GPU_Nvidia">
-                                GPU Nvidia
-                            </label>
-                            <label for="GPU_AMD">
-                                <input type="checkbox" id="GPU_AMD" name="producto" value="GPU_AMD">
-                                GPU AMD
-                            </label>
-                            <label for="RAM">
-                                <input type="checkbox" id="RAM" name="producto" value="RAM">
-                                Memoria RAM
+                                Valijas
                             </label>
                             <button class="btn-accion btn-filtro" type="submit" id="btn-filtrar">Aplicar</button>
                         </fieldset>
@@ -95,7 +187,7 @@
 
         <main id="main">
             <button id="toTop"><img src="./img/up-arrow.png" id="img-toTop"></button>
-            <h2 class="subtSeccion">Productos destacados</h2>
+            <h2 class="subtSeccion">Productos de JMR</h2>
             <section class="SecMain">
             </section>
         </main>
@@ -103,23 +195,23 @@
         <footer>
             <div id="contSocial">
                 <div id="footContacto">
-                    <h3>Contactanos</h3>
-                    <p>5555-5555</p>
-                    <p><a href="#">info@CTAgaming.com</a></p>
-                    <p>Calle Falsa 123</p>
+                    <h3>Contacto</h3>
+                    <p>+543834927252</p>
+                    <p><a href="#">cuerosjmr@hotmail.com</a></p>
+                    <p>Rivadavia 564</p>
                 </div>
 
                 <div id="footRedes">
                     <h3>Redes sociales</h3>
                     <div id="Container_Redes">
                         <a href="#"><img src="./img/facebook.png" alt="Logo de facebook" class="logosRedes"></a>
-                        <a href="#"><img src="./img/instagram.png" alt="Logo de instagram" class="logosRedes"></a>
-                        <a href="#"><img src="./img/twitter.png" alt="Logo de twitter" class="logosRedes"></a>
+                        <a href="#"><img src="./img/instagram.png" alt="Logo de instagCarpeta" class="logosRedes"></a>
                     </div>
                 </div>
             </div>
             <div id="footCopy">
-                <p>Copyright &copy; CTA Gaming 2022</p>
+                <p>Copyright &copy; JMR Marroquineria</p>
+                <p>&copy; Web creada por Gonzalo Romero Quispe</p>
             </div>
         </footer>
     </div>
