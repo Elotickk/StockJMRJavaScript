@@ -12,7 +12,7 @@ JMR Marroquineria es una comercio de marroquineria donde los empleados necesitab
  
 ## Tecnologias Utilizadas ⚙️
   
-![My Skills](https://skillicons.dev/icons?i=html,css,javascript,git)
+![My Skills]([https://skillicons.dev/icons?i=html,css,javascript,git](https://png.pngtree.com/png-vector/20190330/ourlarge/pngtree-json-file-document-icon-png-image_897986.jpg))
   
 ## Base de datos 👩‍
   
