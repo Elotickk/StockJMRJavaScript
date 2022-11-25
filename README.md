@@ -1,12 +1,12 @@
-# CTA Gaming
+# Stock JMR
 
-Proyecto para el curso de Javascript en Coderhouse - Simulador de Compra con Carrito
+Proyecto para Marroquineria JMR - Muestra de productos
 
-<h1 align="center">Bienvenidos a CTA Gaming <h1>
+<h1 align="center">Bienvenidos a JMR Stock <h1>
 
 ## ¿De que se trata mi proyecto? 🚀
   
-CTA GAMING es una tienda electronica ficticia situado en la provincia de San Fernando del Valle de Catamarca, mi idea principal fue hacer un ecommerce para poder efectuar la compra de productos.
+JMR Marroquineria es una comercio de marroquineria donde los empleados necesitaban ver los productos que poseian en su almacen con sus respectivos codigos,nombre,foto,categorias etc.Es por eso que se me ocurrio cargar todos los productos que registre en excel para pasarlo a un json y mostrarlo con Javascript
 
 ![Aquí la descripción de la imagen por si no carga](https://raw.githubusercontent.com/Elotickk/StockJMRJavaScript/master/./img/logo-jmr.png)
  
@@ -15,13 +15,15 @@ CTA GAMING es una tienda electronica ficticia situado en la provincia de San Fer
 ![My Skills](https://skillicons.dev/icons?i=html,css,javascript,git)
   
 ## Base de datos 👩‍
+  
+![My Skills](https://skillicons.dev/icons?i=excel)
 
 ## Pasos para iniciar el proyecto 🛠️
 
 Clonamos el repositorio
 
 ```
-git clone https://github.com/Elotickk/ReactEcommerceProyectoFinal.git
+git clone https://github.com/Elotickk/StockJMRJavaScript.git
 ```
 
 Instalamos todas las dependencias
@@ -33,7 +35,7 @@ npm install
 Nos posicionamos en la carpeta
 
 ```
-cd CTA-GAMING-REACT-ECOMMERCE
+cd StockJMRJavaScript
 ```
 
 Iniciamos la app
@@ -44,7 +46,7 @@ npm start
 
 ## Deploy 🌐
 
-<a href="https://ctagaming.netlify.app" target="_blank" rel="noreferrer"> <img src="https://i.pinimg.com/564x/95/e1/78/95e178f5b1dc1a2327595784442a866c.jpg" alt="vercel" width="140" height="140"/> 
+<a href="https://jmr-stock.netlify.app" target="_blank" rel="noreferrer"> <img src="https://i.pinimg.com/564x/95/e1/78/95e178f5b1dc1a2327595784442a866c.jpg" alt="vercel" width="140" height="140"/> 
 </a>
 
 ## Contacto 👋
