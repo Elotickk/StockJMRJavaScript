@@ -255,6 +255,14 @@ section {
     color: white;
 }
 
+.subtSeccion {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 20px 0;
+    color: white;
+}
+
 .imgProd {
     width: 15rem;
     height: 15rem;

@@ -45,3 +45,16 @@ async function traerYmostrarProductos() {
     let productos = await traerProductos()
     mostrarProductos(productos)
 }
+
+
+const cantidadProductos = document.querySelector(".subtSeccion2")
+
+
+
+function actualizarProductos() {
+    fetch ('./js/mockData.json')
+    .then(response => response.json())
+    .then(data => cantidadProductos.textContent = data.length);
+    }
+
+actualizarProductos ()
